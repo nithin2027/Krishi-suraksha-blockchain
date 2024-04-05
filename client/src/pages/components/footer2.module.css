@@ -1,0 +1,10 @@
+.foot23{
+    height:20vh;
+}
+
+
+@media screen and (min-width: 1920px){
+    .foot23{
+        height:1vh;
+    }
+}

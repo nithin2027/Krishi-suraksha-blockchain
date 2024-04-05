@@ -1,0 +1,79 @@
+/* Global styles */
+.landingContainer {
+    text-align: center;
+    background-image: url('https://img.freepik.com/free-photo/detail-rice-plant-sunset-valencia-with-plantation-out-focus-rice-grains-plant-seed_181624-25838.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cardContainer {
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 80%; /* Adjusted width for responsiveness */
+    max-width: 400px; /* Set a maximum width for larger screens */
+    background-color: #fff2ca;; /* Slightly increased opacity */
+    padding: 40px;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Slightly increased box shadow */
+    margin: 20px auto; /* Center the card horizontally and add margin */
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap to the next line on smaller screens */
+    justify-content: center; /* Improved spacing between cards */
+    margin-bottom: 20px; /* Increased margin between rows of cards */
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 10px; /* Increased margin for better spacing */
+  }
+  
+  .cardTitle {
+    color: black; /* Title color changed to black */
+  }
+  
+  .cardGrid {
+    display: flex;
+    grid-gap: 20px;
+  }
+  
+  .input,
+  .select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 15px; /* Increased margin for better spacing */
+    color: black; /* Input/select text color changed to black */
+  }
+  
+  .button {
+    width: 100%;
+    padding: 12px; /* Adjusted padding for better button size */
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Added transition for smoother hover effect */
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px; /* Increased margin for better spacing */
+  }
+  

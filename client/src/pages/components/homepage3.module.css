@@ -1,0 +1,527 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+.forhomethree{
+    width: 100%;
+    max-height: 400vh;
+    background: linear-gradient(to bottom right,rgb(255, 255, 255),rgb(179, 205, 179),rgb(255, 255, 255)) ; ;
+}
+
+.head1{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 3em;
+    border: 1px solid none ;
+    border-radius: 10px  ;
+    padding: 5px;
+    background: linear-gradient(#34e89e,#0f3443) ;
+    color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.head1:hover,
+.head1:focus {
+    box-shadow: 
+        inset -3.5em 0 0 0 var(--hover),
+        inset 3.5em 0 0 0 var(--hover);  
+}
+
+.stem{
+    width: 100%;
+    height: 260vh;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}   
+
+.stem2{
+    width:5px;
+    height: 260vh;
+    background: linear-gradient(#200122,#6f0000);
+    border: 1px solid none;
+    border-radius: 20px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.blankbox1{
+    width: 30rem;
+    height: 20rem;
+}
+.leaf1{
+    border: 2px solid none;
+    background: linear-gradient(#a8e063,#56ab2f);
+    width: 30rem;
+    height: 20rem;
+    border-radius:500px 2px 400px 24px;
+    -moz-border-radius:500px 2px 400px 24px;
+    -webkit-border-radius:500px 20px 500px 24px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: transform 0.3s ease;
+}
+
+.leaf1:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.leaf2{
+    border: 2px solid none;
+    background: linear-gradient(#2c7744,#5a3f37);
+    width: 30rem;
+    height: 20rem;
+    border-radius:500px 2px 400px 24px;
+    -moz-border-radius:500px 2px 400px 24px;
+    -webkit-border-radius:500px 20px 500px 24px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: transform 0.3s ease;
+    margin-left: 29%;
+}
+.leaf2:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.blankbox2{
+    width: 30rem;
+    height: 20rem;
+}
+
+.blankbox3{
+    width: 30rem;
+    height: 20rem;
+}
+
+
+.leaf3{
+    border: 0px solid ;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background: linear-gradient(#a8e063,#56ab2f);
+    width: 30rem;
+    height: 20rem;
+    border-radius:500px 2px 400px 24px;
+    -moz-border-radius:500px 2px 400px 24px;
+    -webkit-border-radius:500px 20px 500px 24px;
+    transition: transform 0.3s ease;
+}
+
+.leaf3:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.leaf4{
+    border: 2px solid none;
+    background: linear-gradient(#2c7744,#5a3f37);
+    width: 30rem;
+    height: 20rem;
+    border-radius:500px 2px 400px 24px;
+    -moz-border-radius:500px 2px 400px 24px;
+    -webkit-border-radius:500px 20px 500px 24px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: transform 0.3s ease;
+    margin-left: 29%;
+}
+
+.leaf4:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.blankbox4{
+    width: 30rem;
+    height: 20rem;
+}
+
+.blankbox5{
+    width: 30rem;
+    height: 20rem;
+}
+
+.leaf5{
+    border: 0px solid ;
+    background: linear-gradient(#a8e063,#56ab2f);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    width: 30rem;
+    height: 20rem;
+    border-radius:500px 2px 400px 24px;
+    -moz-border-radius:500px 2px 400px 24px;
+    -webkit-border-radius:500px 20px 500px 24px;
+    transition: transform 0.3s ease;
+}
+
+.leaf5:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.h1{
+    width: 150px;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(76, 65, 65);
+    border: 1px solid none;
+    background-color: rgb(203, 213, 185);
+    border-radius: 20px;
+    margin-left:auto;
+}
+
+.para1{
+    font-size:21px;
+    line-height: 200%;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+    color: rgb(60, 30, 30);
+    margin-top: 2em;
+    margin-left:5em;
+}
+
+.h2{
+    width: 220px;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(76, 65, 65);
+    border: 1px solid none;
+    background-color: rgb(203, 213, 185);
+    border-radius: 20px;
+    margin-left:auto;
+}
+
+.para2{
+    font-size:21px;
+    line-height: 200%;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+    margin-top: 2em;
+    margin-left:5em;
+}
+
+.h3{
+    width: 200px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(76, 65, 65);
+    border: 1px solid none;
+    background-color: rgb(203, 213, 185);
+    border-radius: 20px;
+    margin-left:auto;
+}
+
+.para3{
+    font-size:21px;
+    line-height: 200%;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+    color: rgb(60, 30, 30);
+    margin-left:5em;
+    margin-top: 2em;
+}
+
+.h4{
+    width: 200px;
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(76, 65, 65);
+    border: 1px solid none;
+    background-color: rgb(203, 213, 185);
+    border-radius: 20px;
+    margin-left:auto;
+}
+
+.para4{
+    font-size:19px;
+    line-height: 200%;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+    margin-top: 1em;
+    margin-left:5em;
+}
+
+.h5{
+    width: 200px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(76, 65, 65);
+    border: 1px solid none;
+    background-color: rgb(203, 213, 185);
+    border-radius: 20px;
+    margin-left:auto;
+}
+
+.para5{
+    font-size:21px;
+    line-height: 200%;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+    color: rgb(60, 30, 30);
+    margin-top: 1em;
+    margin-left:5em;
+}
+
+.holepara{
+    display: flex;
+}
+
+.holepara1,.holepara2{
+    width: 50%;
+    
+}
+
+@media screen and (min-width: 768px) and (max-width:1023px){
+    .stem,.stem2{
+        height: 101vh;
+    }
+    .leaf1,.leaf2,.leaf3,.leaf4,.leaf5{
+        transform: scale(0.7);
+    }
+    .leaf1{
+        margin-left: -4.2rem;
+    }
+    .leaf2{
+        margin-top: -5rem;
+        margin-left: -.8rem;
+    }
+    .leaf3{
+        margin-left: -4.2rem;
+        margin-top: -12rem;
+    }
+    .leaf4{
+        margin-top: -12rem;
+        margin-left: -.8rem;
+    }
+    .leaf5{
+        margin-left: -4.2rem;
+        margin-top: -12rem;
+    }
+    .blankbox1,.blankbox2,.blankbox3,.blankbox4,.blankbox5{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:480px){
+    .forhomethree{
+        width: 100%;
+        max-height: 100vh;
+    }
+    .head1{
+        transform: scale(0.6);
+        padding: 1rem;
+    }
+    .leaf1,.leaf2,.leaf3,.leaf4,.leaf5{
+        transform: scale(0.35);
+    }
+    .stem,.stem2{
+        height: 85vh;
+    }
+    .leaf1{
+        margin-left: -9.5rem;
+        margin-top: -4rem;
+    }
+    .leaf2{
+        margin-top: -16rem;
+        margin-left: -8.3rem;
+    }
+    .leaf3{
+        margin-left: -9.5rem;
+        margin-top: -27rem;
+    }
+    .leaf4{
+        margin-top: -27rem;
+        margin-left: -8.3rem;
+    }
+    .leaf5{
+        margin-left: -9.5rem;
+        margin-top: -27rem;
+    }
+    .blankbox1,.blankbox2,.blankbox3,.blankbox4,.blankbox5{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width:1365px){
+    .leaf1, .leaf3, .leaf5{
+        width: 25rem;
+        height: 18rem;
+    }
+
+    .leaf2, .leaf4{
+        width: 25rem;
+        height: 18rem;
+        margin-left:12rem;
+    }
+
+    .blankbox1,.blankbox2,.blankbox3,.blankbox4,.blankbox5{
+        width: 25rem;
+        height: 18rem;
+    }
+    
+    .h1{
+        width:130px;
+        font-size: 27px;
+
+    }
+    .h2{
+        width:130px;
+        font-size: 23px;
+        margin-left: 16rem;
+    }
+    .h3{
+        width:150px;
+        font-size: 19px;
+        margin-left: 14rem;
+    }
+    .h4{
+        width:150px;
+        font-size: 19px;
+    }
+    .h5{
+        width:150px;
+        font-size: 19px;
+    }
+
+    .para1{
+        font-size:17px;
+        line-height: 250%;
+        font-weight:bolder;
+        margin-left: 5em;
+    }
+    .para2{
+        font-size:15px;
+        line-height: 250%;
+        font-weight:bolder;
+        margin-left: 4em;
+    }
+    .para3{
+        font-size:17px;
+        line-height: 250%;
+        font-weight:bolder;
+    }
+    .para4{
+        font-size:15px;
+        line-height: 250%;
+        font-weight:bolder;
+        margin-left: 6em;
+    }
+    
+    .para5{
+        font-size:16px;
+        line-height: 250%;
+        font-weight:bolder;
+        margin-left: 6.5em;
+    }
+   
+    .stem,.stem2{
+        height: 280vh;
+    }
+    
+}
+
+@media screen and (min-width:1240px){
+    .leaf2, .leaf4{
+        margin-left:14.2rem;
+    }
+
+    .leaf3:hover{
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .stem,.stem2{
+        height: 270vh;
+    }
+    .head1{
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (min-width:1367px) and (min-width: 1920px){
+    .leaf1, .leaf3, .leaf5{
+        width: 40rem;
+        height: 30rem;
+    }
+
+    .leaf2, .leaf4{
+        width: 40rem;
+        height: 30rem;
+        margin-left:19.5rem;
+    }
+
+    .blankbox1,.blankbox2,.blankbox3,.blankbox4,.blankbox5{
+        width: 40rem;
+        height: 30rem;
+    }
+    
+    .h1{
+        width:200px;
+        font-size: 40px;
+
+    }
+    .h2{
+        width:160px;
+        font-size: 30px;
+        
+    }
+    .h3{
+        width:260px;
+        font-size: 35px;
+    }
+    .h4{
+        width:240px;
+        font-size: 33px;
+    }
+    .h5{
+        width:200px;
+        font-size: 40px;
+    }
+
+    .para1{
+        font-size:25px;
+        line-height: 250%;
+        font-weight:bolder;
+        margin-left: 7em;
+    }
+    .para2{
+        font-size:25px;
+        line-height: 250%;
+        font-weight:bolder;
+        margin-left: 6em;
+    }
+    .para3{
+        font-size:25px;
+        line-height: 250%;
+        font-weight:bolder;
+        
+    }
+    .para4{
+        font-size:24px;
+        line-height: 250%;
+        font-weight:bolder;
+        margin-left: 6em;
+    }
+    
+    .para5{
+        font-size:25px;
+        line-height: 250%;
+        font-weight:bolder;
+    }
+
+    .stem,.stem2{
+        height: 300vh;
+    }
+    
+}
+
+@media screen and (min-width:1280px) and (height:800px) {
+    .stem,.stem2{
+        height: 190vh;
+    }
+    .leaf2, .leaf4{
+        margin-left:15rem;
+    }
+}
+
+
+

@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,500&family=Playfair:opsz@5..1200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,500&family=PT+Sans+Narrow:wght@700&family=Playfair:opsz@5..1200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=IBM+Plex+Sans:ital,wght@1,500&family=PT+Sans+Narrow:wght@700&family=Playfair:opsz@5..1200&display=swap');
+
+.forhometwo{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to bottom left,rgb(255, 255, 255),rgb(179, 205, 179),rgb(255, 255, 255)) ;
+}
+
+.firstfifty{
+    width: 50%;
+    min-height: 100vh;
+    left: 0;
+    background: linear-gradient(#ff6e7f,#bfe9ff);
+    border: 1px solid none;
+    border-top-right-radius: 10em ;
+    border-bottom-right-radius: 10em;
+}
+
+.oneimg{
+    margin-top: 4rem;
+    margin-right: 5rem;
+    margin-left:5rem;
+    width: 4em;
+}
+
+.twoimg{
+    margin-top: 4rem;
+    margin-right: 5rem;
+    width: 5.5em;
+}
+
+.threeimg{
+    margin-top: 4rem;
+    margin-right: 5rem;
+    width: 4em;
+}
+
+.fourimg{
+    width: 35em;
+    height: 20em;
+    margin-left: 4em;
+    margin-top: 6em;
+}
+
+.fourimg:hover{
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+.holeimg{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-animation:jump 4s ease-in-out 0s infinite normal;
+    -moz-animation:jump 4s ease-in-out 0s infinite normal;
+    -ms-animation:jump 4s ease-in-out 0s infinite normal;
+    animation:jump 4s ease-in-out 0s infinite normal;
+    }
+    
+    @-webkit-keyframes jump{
+    0%{ -webkit-transform:translateY(0); transform:translateY(0); }
+    20%{ -webkit-transform:translateY(0); transform:translateY(0); }
+    40%{ -webkit-transform:translateY(-30px); transform:translateY(-30px); }
+    50%{ -webkit-transform:translateY(0); transform:translateY(0); }
+    60%{ -webkit-transform:translateY(-15px); transform:translateY(-15px); }
+    80%{ -webkit-transform:translateY(0); transform:translateY(0); }
+    100%{ -webkit-transform:translateY(0);transform:translateY(0); }
+    }
+    
+    @keyframes jump{
+    0%{ transform:translateY(0); }
+    20%{ transform:translateY(0); }
+    40%{ transform:translateY(-30px); }
+    50%{ transform:translateY(0); }
+    60%{ transform:translateY(-15px); }
+    80%{ transform:translateY(0); }
+    100%{ transform:translateY(0); }
+    }
+
+
+.secondfifty{
+    height: 30em;
+    background-color: aliceblue;
+    border: 1px solid  none ;
+    border-radius: 10px;
+    right:150px;
+    margin-right: 1rem;    
+}
+
+.boxone{
+    border-bottom: 1px solid gray;
+    background-color: rgb(122, 145, 164);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; 
+}
+
+.para{
+    font-size: 27px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Playfair', serif;
+    font-family: 'PT Sans Narrow', sans-serif;
+    padding: 10px;
+    color: #f7f1e3;
+    letter-spacing: 0.025em;
+    text-align: center;
+}
+
+.but{
+    font-size: 30px;
+    padding:9px;
+    color: whitesmoke;
+    border: 2px solid  none;
+    border-radius: 10px;
+    margin-left: 15rem;
+    margin-top: 1rem;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Playfair', serif;
+    position: relative;
+    font-family: 'PT Sans Narrow', sans-serif;
+    background: linear-gradient(to bottom right,#3c3b3f,#605c3c);
+}
+
+.but:hover{
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+@media screen and (min-width: 768px) and (max-width:1023px){
+    .forhometwo{
+        min-height: 50vh;
+    }
+    .firstfifty{
+        width:50%;
+        min-height: 50vh;
+        /* margin-top: 5rem; */
+    }
+
+    .secondfifty{
+        height: 65vh;
+        width: 55%;
+        transform: scale(0.7);
+        margin-right: -1.5rem;
+        /* margin-top: -6rem; */
+        /* transform: translateX(-2rem); */
+    }
+
+    .oneimg{
+        margin-top: 5rem;
+        margin-right: 3rem;
+        margin-left:4rem;
+        width: 3em;
+    }
+
+    .twoimg{
+        margin-top: 5rem;
+        margin-right: 3rem;
+        width: 4em;
+    }
+
+    .threeimg{
+        margin-top: 5rem;
+        margin-right: 5rem;
+        width: 3em;
+    }
+
+    .fourimg{
+        width: 17em;
+        height: 12em;
+        margin-left: 3rem;
+        margin-top: 10rem;
+        transform: scale(1.1);
+        /* margin-bottom: 2em; */
+    }
+    .but{
+        margin-left: 8rem;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width:1365px){
+    .firstfifty{
+        width: 50%;
+        min-height: 90vh;
+        left: 0;
+        background: linear-gradient(#ff6e7f,#bfe9ff);
+        border: 1px solid none;
+        border-top-right-radius: 10em ;
+        border-bottom-right-radius: 10em;
+    }
+
+    .oneimg,.threeimg{
+        width: 3em;
+    }
+
+    .twoimg{
+        width:5em;
+    }
+
+    .fourimg{
+        width: 26em;
+        height: 18em;
+        margin-left: 4em;
+        margin-top: 4em;
+    }
+
+    .secondfifty{
+        width:33em;
+        height: 28em;
+        background-color: aliceblue;
+        border: 1px solid  none ;
+        border-radius: 10px;
+        right:150px;
+        margin-right: 2rem; 
+    }
+    .boxone{
+        border-bottom: 1px solid gray;
+        background-color: rgb(122, 145, 164);
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px; 
+    }
+    .para{
+        font-size: 20px;
+        padding: 8px;
+    }
+    .but{
+        font-size: 25px;
+        padding:7px;
+        color: whitesmoke;
+        border: 2px solid  none;
+        border-radius: 10px;
+        margin-left: 12rem;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width: 480px){
+    .secondfifty{
+        width:20em;
+        height: 100vh;
+        margin-left: 1rem; 
+        align-items: center;
+        justify-content: center;
+        margin-top: 3rem;
+    }
+
+    .para{
+        font-size: 1.3rem;
+    }
+
+    .but{
+        font-size: 1rem;
+        margin-left: 7rem;
+    }
+
+    .firstfifty{
+        width: 90%;
+        min-height: 30vh;
+        margin-top: 3rem;
+        margin-right: 2.5rem;
+    }
+    
+    .oneimg{
+        margin-top: 4rem;
+        margin-right: 3rem;
+        margin-left:2rem;
+        width: 2em;
+    }
+
+    .twoimg{
+        margin-top: 4rem;
+        margin-right: 3rem;
+        width: 3em;
+    }
+
+    .threeimg{
+        margin-top: 4rem;
+        margin-right: 5rem;
+        width: 2em;
+    }
+
+    .fourimg{
+        width: 12em;
+        height: 10em;
+        margin-left: 3em;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+}
+
+@media only screen and (min-width:1240px){
+    .fourimg{
+        width: 25em;
+        height: 18em;
+        margin-left: 7rem;
+        margin-top: 4em;
+        margin-bottom: 2rem;
+    }
+    .firstfifty{
+        margin-top: 6rem ;
+    }
+    .secondfifty{
+        margin-top: 5rem;
+        height: 105vh;
+    }
+    .threeimg{
+        margin-top: 4rem;
+        width: 3em;
+    }
+}
+
+@media screen and (min-width:1367px) and (min-width: 1920px) {
+
+    .oneimg,.threeimg{
+        width: 6em;
+    }
+
+    .twoimg{
+        width:8em;
+    }
+
+    .fourimg{
+        width: 43em;
+        height: 25em;
+        margin-left: 9em;
+        margin-top: 6em;
+    }
+
+    .secondfifty{
+        width:50em;
+        height: 30em;
+        background-color: aliceblue;
+        border: 1px solid  none ;
+        border-radius: 10px;
+        right:150px;
+        margin-right: 4rem;    
+    }
+
+    .para{
+        font-size: 33px;
+        padding: 10px;
+    }
+    
+    .but{
+        font-size: 3em;
+        padding: 10px;
+        margin-left: 17rem;
+    }
+
+}
+
+@media  screen and (min-width:1280px) and (height:800px){
+    .fourimg{
+        width: 30em;
+        height: 20em;
+        margin-left: 4em;
+        margin-top: 9em;
+    }
+    .oneimg{
+        margin-top: 4rem;
+        margin-right: 5rem;
+        margin-left:5rem;
+        width: 4em;
+    }
+    .twoimg{
+        margin-top: 4rem;
+        margin-right: 5rem;
+        width: 5.5em;
+    }
+    .threeimg{
+        margin-top: 4rem;
+        width: 4em;
+    }
+    .secondfifty{
+        height: 70vh;
+        width: 45%;
+        margin-right: 1.5rem;
+    }
+    .but{
+        margin-left: 14rem;
+    }
+}

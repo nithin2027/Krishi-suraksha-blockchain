@@ -1,0 +1,55 @@
+/* cropreportclauseform.css */
+.crop-report-clause-form-container {
+    text-align: center;
+    background-image: url('https://img.freepik.com/free-photo/detail-rice-plant-sunset-valencia-with-plantation-out-focus-rice-grains-plant-seed_181624-25838.jpg'); 
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.crop-report-clause-form {
+    text-align: center;
+    align-items: center;
+    width: 97%;
+    background-color: #f2fab9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+.instruction-paragraph {
+    text-align: left;
+}
+
+.accept-terms {
+    margin: 20px 0;
+    /* display: flex;
+    align-items: center;
+    flex-direction: row; */
+}
+  
+
+.accept-terms input {
+    width: 30px;
+    height: 30px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+    background-color: #398b28;
+    color: #fbcb3c;
+    width: 50%;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+

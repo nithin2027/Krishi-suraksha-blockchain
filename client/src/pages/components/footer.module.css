@@ -1,0 +1,24 @@
+.footer {
+    background-color: #bfc827;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    margin-top: auto;
+    
+}
+
+.footerLinks a {
+    margin-right: 70px;
+    color: #0d6117;
+    text-decoration: none;
+}
+
+.footerText {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #0d6117;
+}
+
+.footerText p {
+    margin: 5px 0;
+}
