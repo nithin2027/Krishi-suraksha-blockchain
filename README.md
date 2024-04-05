@@ -1,11 +1,8 @@
-# agrisure-hackathon
+# Krishi-suraksha
 
 contract address details    
 
-chainlink smart contract address:- 0x531502E81438B8D6f689546E9969F0E4ED2d67A6
-
-agrisure smart contract address:- 0xA7212a2877814f58eD86A5Ba77B8794ef28B1d56
-
-INRT(ERC20 token) address:- 0xC1A187BC545E8846Ef332F1C6607f5FDCC3165b1
-
-All smart contracts are deployed on polygon mumbai
+ChainLinkWeatherData deployed to address: 0xc9F9873AF02eF5DCBC9FeA2a46f0A88344AA16c0
+LibCalculations deployed to address: 0x1a56f9788c026Ff37a95f910CeAfc809A77790ac
+InsuranceRegistery deployed to address: 0x8f87E9596d855E323AAC354854C287c110E5d99b
+Deploying to network: polygon_mumbai
